@@ -39,7 +39,7 @@ namespace SampleGovernanceRules.Rules
                 Key = AllowPrereleaseKey,
                 LocalizedDisplayName = Strings.AllowPrereleasePackagesLabel,
                 DefaultValue = "True"
-            }); ;
+            }); 
 
             return rule;
         }
