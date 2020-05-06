@@ -26,7 +26,9 @@ namespace SampleGovernanceRules.Rules
             var rule = new Rule<IProjectModel>(Strings.ORG_USG_002_Name, RuleId, Inspect)
             {
                 RecommendationMessage = Strings.ORG_USG_002_Recommendation,
-                ErrorLevel = TraceLevel.Error
+                ErrorLevel = TraceLevel.Error,
+                //Must contain "BusinessRule" to appear in StudioX, rules always appear in Studio
+                ApplicableScopes = new List<string> { Constants.BusinessRule }
             };
             rule.Parameters.Add(ConfigParameterKey, new Parameter()
             {

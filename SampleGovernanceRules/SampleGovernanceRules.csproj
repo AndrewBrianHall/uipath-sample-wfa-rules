@@ -57,19 +57,19 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UiPath.Activities.Api.Base, Version=20.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UiPath.Activities.Api.20.4.0-beta.450\lib\net452\UiPath.Activities.Api.Base.dll</HintPath>
+      <HintPath>..\packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Activities.Api.Base.dll</HintPath>
     </Reference>
     <Reference Include="UiPath.Api.Base, Version=20.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UiPath.Activities.Api.20.4.0-beta.450\lib\net452\UiPath.Api.Base.dll</HintPath>
+      <HintPath>..\packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Api.Base.dll</HintPath>
     </Reference>
     <Reference Include="UiPath.Robot.Activities.Api, Version=20.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UiPath.Activities.Api.20.4.0-beta.450\lib\net452\UiPath.Robot.Activities.Api.dll</HintPath>
+      <HintPath>..\packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Robot.Activities.Api.dll</HintPath>
     </Reference>
     <Reference Include="UiPath.Studio.Activities.Api, Version=20.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UiPath.Activities.Api.20.4.0-beta.450\lib\net452\UiPath.Studio.Activities.Api.dll</HintPath>
+      <HintPath>..\packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Activities.Api.dll</HintPath>
     </Reference>
     <Reference Include="UiPath.Studio.Api.Base, Version=20.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UiPath.Activities.Api.20.4.0-beta.450\lib\net452\UiPath.Studio.Api.Base.dll</HintPath>
+      <HintPath>..\packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Api.Base.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace SampleGovernanceRules
 {
+    internal class Constants
+    {
+        public const string BusinessRule = "BusinessRule";
+    }
+
     public class Strings
     {
         public const string ConfigurationSettingsLabel = "Rule Configuration";

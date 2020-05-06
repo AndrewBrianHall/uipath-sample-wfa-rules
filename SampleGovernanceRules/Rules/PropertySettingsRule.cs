@@ -21,7 +21,7 @@ namespace SampleGovernanceRules.Rules
                 RecommendationMessage = Strings.ORG_USG_001_Recommendation,
                 ErrorLevel = TraceLevel.Error,
                 //Must contain "BusinessRule" to appear in StudioX, rules always appear in Studio
-                ApplicableScopes = new List<string> { RuleConstants.BusinessRule }
+                ApplicableScopes = new List<string> { Constants.BusinessRule }
             };
             rule.Parameters.Add(ConfigParameterKey, new Parameter()
             {
