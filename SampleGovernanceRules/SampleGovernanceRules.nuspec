@@ -11,7 +11,6 @@
 		<copyright>Copyright 2020</copyright>
 	</metadata>
 	<files>
-		<file src="bin\$configuration$\SampleGovernanceRules.dll" target="lib\net461" />
 		<file src="bin\$configuration$\Semver.dll" target="lib\net461" />
 		<file src="bin\$configuration$\Semver.xml" target="lib\net461" />
 	</files>
