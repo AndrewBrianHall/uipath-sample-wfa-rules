@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0"?>
 <package >
 	<metadata>
-		<id>$id$</id>
-		<version>$version$</version>
-		<title>$title$</title>
+		<id>MyOrg.SampleGoverance.Rules</id>
+		<version>1.0</version>
+		<title>MyOrg.SampleGovernance.Rules</title>
 		<authors>Andrew Hall</authors>
 		<owners>$author$</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
