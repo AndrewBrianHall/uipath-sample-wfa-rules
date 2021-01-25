@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>MyOrg.SampleGoverance.Rules</id>
-		<version>1.0</version>
+		<version>$version$</version>
 		<title>MyOrg.SampleGovernance.Rules</title>
 		<authors>Andrew Hall</authors>
 		<owners>$author$</owners>

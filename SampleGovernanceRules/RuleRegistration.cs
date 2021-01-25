@@ -10,7 +10,7 @@ namespace SampleGovernanceRules
         public void Initialize(IAnalyzerConfigurationService workflowAnalyzerConfigService)
         {
             workflowAnalyzerConfigService.AddRule(PropertySettingsRule.Get());
-            workflowAnalyzerConfigService.AddRule(PackageVersionsRule.Get());
+            //workflowAnalyzerConfigService.AddRule(PackageVersionsRule.Get());
         }
     }
 }
