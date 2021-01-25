@@ -11,5 +11,4 @@ IF /I "%2" == "-version" SET _version=%3
 
 SET _build_dir=%_src_root%\bin\%_configuration%
 
-msbuild %_src_root%\%_PROJECT_NAME%.csproj -p:Configuration=%_configuration%
-nuget pack %_src_root% -OutputDirectory %_build_dir% -version %_version%
+nuget pack %_src_root% -Build -OutputDirectory %_build_dir% -version %_version% -Properties Configuration=%_configuration%
